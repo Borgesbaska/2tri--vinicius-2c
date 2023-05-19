@@ -1,1 +1,1 @@
-# 2triborgesp
+# 2tri_programacao
