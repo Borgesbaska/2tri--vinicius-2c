@@ -1,5 +1,5 @@
 :root {
---cor-de-fundo: rgba(255, 208, 0, 0.473);
+--cor-de-fundo: rgba(255, 246, 246, 0.473);
 }
 
 body {
@@ -46,3 +46,14 @@ h1 {
     width: 100px;
 
 }
+
+#burguer {
+    background-color: rgb(255, 255, 255);
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    }
+    #menu {
+    display: none;
+    }

@@ -4,21 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">    
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <title>basquete</title>
 </head>
 <body>
 <header class="cabecalho">
     <h1>INFORMAÇÕES</h1>
-    <nav>
+    <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+    <nav id="menu" class="cabecalho-menu">
         <ul>
             <img class="img-class" src="baska.jpg" alt="">
-            <li><a class="cabecalho-menu-item" href="#">Playoffs</a></li>
+            <li><a class="cabecalho-menu-item" href="#">Promessas da liga</a></li>
             <li><a class="cabecalho-menu-item" href="#">MVP</a></li>
             <li><a class="cabecalho-menu-item" href="#">Jogadores em ascenção</a></li>
         </ul>
     </nav>
 </header>
+<script>
+    function clickMenu() {
+    if (menu.style.display == 'block') {
+    menu.style.display = 'none';
+    } else {
+    menu.style.display = 'block';
+    }
+    }
+    </script>
 </body>
 </html>
